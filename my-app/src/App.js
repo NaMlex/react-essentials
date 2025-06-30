@@ -16,11 +16,18 @@ import ControlledForm from './components/ControlledForm';
 import UncontrolledForm from './components/UncontrolledForm';
 import SearchBar from './components/SearchBar';
 import ControlledFormHooks from './components/ControlledFormHooks';
+import UseStateWithArrays from './components/UseStateWithArrays';
+import UseStateWithObjects from './components/UseStateWithObjects';
+import UseEffectCounter from './components/UseEffectCounter';
+import UseEffectCounterContainer from './components/UseEffectCounterContainer';
+import HTTPRequests from './components/HTTPRequests';
+import HTTPPost from './components/HTTPPost';
+import HTTPHooks from './components/HTTPHooks';
 
 function App() {
   return (
     <div className="App">
-      <ControlledFormHooks />
+      <HTTPHooks />
     </div>
   );
 }
